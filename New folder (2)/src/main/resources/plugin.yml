@@ -1,0 +1,14 @@
+name: SMPManager
+main: com.smpmanager.SMPManager
+version: 1.0.0
+api-version: 1.21
+commands:
+  coins:
+    description: Check your or another player's coin balance.
+  pay:
+    description: Pay another player Coins.
+  setcoins:
+    description: Admin command to set player Coins.
+permissions:
+  smp.setcoins:
+    default: op
